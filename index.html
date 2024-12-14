@@ -23,7 +23,7 @@
             customFont = loadFont('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.ttf'); // 替换为实际字体路径
             startbg = loadImage('1.png'); // 替换为你的开始界面背景图片
             for (let i = 0; i < 340; i++) {
-                backgrounds[i] = loadImage('1_' + i + '.png'); // 替换为你的背景图路径
+                backgrounds[i] = loadImage(`data/1_${i}.png`);
             }
             waterImg = loadImage('water.png'); // 替换为水滴图像路径
             hand = loadImage('hand.png'); // 替换为手图像路径
